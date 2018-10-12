@@ -14,3 +14,4 @@ var fortuneTextPlaceholder = document.createTextNode('');
 yourFortune.appendChild(fortuneTextPlaceholder);
 
 var fortuneText = document.createTextNode(magicFortunes[0]);
+yourFortune.appendChild(fortuneText);
