@@ -12,3 +12,5 @@ var yourFortune = document.querySelector('#fortune-wrapper p span');
 
 var fortuneTextPlaceholder = document.createTextNode('');
 yourFortune.appendChild(fortuneTextPlaceholder);
+
+var fortuneText = document.createTextNode(magicFortunes[0]);
